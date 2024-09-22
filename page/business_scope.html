@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>渝司会官网</title>
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="../img/YU.png" sizes="any">
+  <link rel="apple-touch-icon" href="../img/YU.png">
+
+  <meta name="theme-color" content="#fafafa">
+  <!-- import Vue before Element -->
+  <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<body>
+
+<div id="app" style="display: flex;flex-direction: column">
+  <div style="display: flex;justify-content: center;margin-bottom: 30px">
+    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect"
+             style="border-bottom: none">
+      <el-menu-item index="1"><a href="../index.html">首页</a></el-menu-item>
+      <el-menu-item index="2"><a href="./business_scope.html">经营范围</a></el-menu-item>
+      <el-menu-item index="3"><a href="./contact_us.html">联系我们</a></el-menu-item>
+    </el-menu>
+  </div>
+  <div>
+    <h3 style="text-align: center">经营范围</h3>
+    <el-row :gutter="12" >
+      <el-col :span="4">
+        <el-card shadow="hover">
+          公司注册
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          记账报税
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          工商代办
+        </el-card>
+      </el-col>
+    </el-row>
+
+    <el-row :gutter="12">
+      <el-col :span="4">
+        <el-card shadow="hover">
+          财税服务
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          知识产权
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          网站建设
+        </el-card>
+      </el-col>
+    </el-row>
+
+    <el-row :gutter="12">
+      <el-col :span="4">
+        <el-card shadow="hover">
+          资质许可
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          经营帐外包
+        </el-card>
+      </el-col>
+
+    </el-row>
+
+  </div>
+   <el-divider></el-divider>
+
+  <div>
+    <h3 style="text-align: center">服务保障</h3>
+     <el-row :gutter="12" >
+      <el-col :span="4">
+        <el-card shadow="hover">
+          明码标价 无隐形消费
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          专业会计服务团队
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          一站式企业服务
+        </el-card>
+      </el-col>
+    </el-row>
+
+    <el-row :gutter="12">
+      <el-col :span="4">
+        <el-card shadow="hover">
+          执照真实正规可查
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          注册不成功全额退款
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+          办理进度随时沟通
+        </el-card>
+      </el-col>
+    </el-row>
+
+    <el-row :gutter="12">
+      <el-col :span="4">
+        <el-card shadow="hover">
+          签订合同保障隐私
+        </el-card>
+      </el-col>
+      <el-col :span="4">
+        <el-card shadow="hover">
+         我方造成损失由我们承担
+        </el-card>
+      </el-col>
+
+    </el-row>
+  </div>
+</div>
+
+</body>
+
+<style>
+  .el-row{
+     display: flex;
+    justify-content: center;
+    margin-bottom: 30px
+  }
+  .el-card{
+    text-align: center;
+    background-color: #67C23A
+;
+  }
+  .el-menu-item a{
+    text-decoration:none
+  }
+</style>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: function () {
+      return {
+        visible: false,
+        activeIndex: '2',
+
+      }
+    },
+    methods: {
+      handleSelect(key) {
+
+      }
+    },
+    mounted() {
+      // 首次加载时,初始化高度
+      this.screenWidth = window.innerWidth
+      this.bannerHeight = 600 / 1550 * this.screenWidth
+      // 窗口大小发生改变
+      window.onresize = () => {
+        this.screenWidth = window.innerWidth
+        this.bannerHeight = 600 / 1550 * this.screenWidth
+      }
+    }
+  })
+</script>
+</html>
