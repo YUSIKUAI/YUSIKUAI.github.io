@@ -335,7 +335,7 @@
 @media (max-width: 640px) {
    .tgt-bg-overlay-content{
     padding: 50px 20px 40px 20px;
-   } 
+   }
   .tgt-counter-box.style1{
     border-right: none;
     border-bottom: 1px solid rgba(255,255,255,.25);
@@ -354,7 +354,7 @@
   }
   .tgt-get-quote-section .tgt-quote-call{
     right: 0;
-  }  
+  }
   .tgt-why-choose-box-tabs .nav-tabs .nav-item{
     width: 100%;
   }
@@ -380,12 +380,12 @@
   }
   .tgt-history-section{
     padding: 0 55px;
-  }  
+  }
   .tgt-history-section [class*='col-']:nth-child(1) .tgt-history-dots:after{
     width: 140%;
   }
   .tgt-why-choose-box{
-    padding:30px; 
+    padding:30px;
   }
   .tgt-get-quote-section img{
     margin-top: 20px;
@@ -393,24 +393,24 @@
   h1{
     font-size: 36px;
   }
-} 
+}
 
 
 
 @media only screen and (max-width: 1600px) and (min-width: 1401px)
 {
   .tgt-effective-solution-box-right .tgt-bg-overlay{
-    margin-right: -300px;   
+    margin-right: -300px;
   }
   .tgt-testimonial-left{
      margin-left: -300px;
   }
   .tgt-year-experience-box-right  .tgt-bg-overlay{
      margin-left: -300px;
-  }  
+  }
   .tgt-background-image-yes .tgt-bg-overlay{
      margin-right: -300px;
-  }    
+  }
   .tgt-counterbox-content .tgt-bg-overlay-right {
      margin-right: -300px;
   }

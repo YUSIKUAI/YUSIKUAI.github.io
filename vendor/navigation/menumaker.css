@@ -168,13 +168,13 @@
 .tgt-menu-mobile-box input[type=checkbox] {
     display: none;
 }
-@media (max-width: 1199px) 
+@media (max-width: 1199px)
 {
 .tgt-menu-mobile-box {
     position: relative;
     width: 28px;
     float: left;
-}  
+}
 .tgt-menu-mobile-box label {
     cursor: pointer;
     position: absolute;
@@ -258,7 +258,7 @@
 #tgt-site-navigation .menu.active, #tgt-site-navigation .menu>ul ul.active {
     max-height: 55em;
     display: block;
-}  
+}
 #tgt-site-navigation .menu ul li a {
     display: block;
     padding: 15px 0;
@@ -296,6 +296,6 @@
 #tgt-site-navigation .menu ul.active ul{
   opacity: 1;
   visibility:visible;
-}  
+}
 
 }
