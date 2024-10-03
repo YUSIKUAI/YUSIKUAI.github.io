@@ -5,7 +5,7 @@
   Created Date: 1 May 2020
 */
 .tgt-bgcolor-orange{
-  background-color:#FC6A20;
+  background-color:#c1996b;
 }
 .tgt-bgcolor-darkblue{
   background-color:#002B57; 
@@ -20,7 +20,7 @@
   border-bottom: 1px solid rgba(0,0,0,.10);
 }
 .tgt-txt-orange{
-  color: #fc6a20;
+  color: #c1996b;
 }
 
 
@@ -32,10 +32,9 @@
 .tgt-section-title h2{
   font-weight: 600;
 }
-
 /* sub title */
 .tgt-sub-title{
-  color:#fc6a20;
+  color:#c1996b;
   margin-bottom: 15px;
   font-weight:600;
   font-size: 14px;
@@ -45,7 +44,7 @@
   color: #999;
 }
 .tgt-sub-title.style3{
-  color: #fc6a20;
+  color: #c1996b;
 }
 .tgt-sub-title.white-text-color{
   color: #FFF;
@@ -108,7 +107,7 @@ p.white-text-color{
 .tgt-list-style li:before{
     content: "\f00c";
     font-family: "Font Awesome 5 Free";  
-    color: #FC6A20;
+    color: #c1996b;
     display: inline-block;
     font-style: normal;
     font-variant: normal;
@@ -136,7 +135,7 @@ p.white-text-color{
 }  
 .feature-box-icon i{
   font-size: 42px;
-  color: #FC6A20;
+  color: #c1996b;
 }  
 .feature-box-left-content{
   display: inline-block;
@@ -150,7 +149,7 @@ p.white-text-color{
 }
 .box-icon i{
   font-size: 40px;
-  color: #FC6A20;
+  color: #c1996b;
 } 
 .star-ratings{
   margin-bottom: 15px;
@@ -204,9 +203,9 @@ ul.rating li i.rating-white{
 }
 .btn-primary{
   border-radius: 0;
-  background: #fc6a20;
+  background: #c1996b;
   color: #FFF;
-  border-color:#fc6a20;
+  border-color:#c1996b;
   font-size: 15px; 
   padding: 10px 23px;
   border:none;    
@@ -242,16 +241,16 @@ ul.rating li i.rating-white{
   border:none;  
 }  
 .btn-outline-primary{
-  color: #fc6a20;
-  border-color: #fc6a20;
+  color: #c1996b;
+  border-color: #c1996b;
   border-radius: 0;
   border:solid 2px;
   font-size: 16px;
   padding: 9px 24px;  
 }
 .btn-outline-primary:hover,.btn-outline-primary:focus{
-  background:#fc6a20;
-  border-color: #fc6a20; 
+  background:#c1996b;
+  border-color: #c1996b; 
 }
 .btn-outline-secondary{
   color: #002b57;
@@ -283,8 +282,8 @@ ul.rating li i.rating-white{
   font-weight: 500;
 }
 .btn-read:hover,.btn-read:focus{
-  color: #fc6a20;
-  border-bottom: 1px solid #fc6a20;
+  color: #c1996b;
+  border-bottom: 1px solid #c1996b;
 }
 .btn.btn-lg{
   padding: 12px 22px;
@@ -295,7 +294,7 @@ ul.rating li i.rating-white{
 
 .custom-modal .modal-content .modal-header {
     padding: 20px 30px;
-    background: #fc6a20;
+    background: #c1996b;
     border-radius: 0 0;
 }
 .custom-modal .modal-content {
@@ -634,5 +633,5 @@ ul.rating li i.rating-white{
   color: #09162a;
 }
 .tgt-blue-link:hover,.tgt-blue-link:focus{
-  color: #FC6A20;
+  color: #c1996b;
 }
