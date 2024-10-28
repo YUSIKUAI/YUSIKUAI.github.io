@@ -718,6 +718,16 @@ ul.list-none {
     background-size: contain;
     position: relative;
 }
+@media (max-width: 1200px) {
+    .tgt-home-slider-bg {
+        height: 340px;
+    }
+}
+@media (max-width: 600px) {
+    .tgt-home-slider-bg {
+        height: 280px;
+    }
+}
 
 .tgt-overlay-bg {
     position: absolute;
@@ -784,7 +794,7 @@ ul.list-none {
 }
 
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
-    position: absolute;
+    /* position: absolute;
     border-radius: 100%;
     background: #000;
     opacity: 0.3;
@@ -803,7 +813,8 @@ ul.list-none {
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
     border-radius: 0;
-    border: none;
+    border: none; */
+    display: none;
 }
 
 .owl-carousel .owl-nav button:hover, .owl-carousel .owl-nav button:focus {

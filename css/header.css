@@ -1,0 +1,32 @@
+.cus-header {
+    /* position: fixed;
+    top: 0; */
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 66%; */
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.cus-header .cus-branding{
+    width: 76px;
+    height: 80px;
+}
+.cus-header .dropdown{
+    display: flex;
+}
+.cus-header .dropdown li{
+    list-style-type: none;
+}
+.cus-header .dropdown li a {
+    margin: 0 5px;
+    text-decoration: none;
+    z-index: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
+    color: #09162a;
+}
+
