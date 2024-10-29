@@ -307,9 +307,11 @@ readers do not read off random characters that represent icons */
 .fa-app-store:before {
   content: "\f36f"; }
 
-.fa-app-store-ios:before {
-  content: "\f370"; }
+/* .fa-app-store-ios:before {
+  content: "\f370"; } */
 
+
+  
 .fa-apper:before {
   content: "\f371"; }
 
